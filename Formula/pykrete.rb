@@ -11,18 +11,18 @@ class Pykrete < Formula
   on_macos do
     on_arm do
       url "#{base}/pykrete-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "87f6b6d5708bce38389378a6a161e4bc4a34d68b50cf70bcc59e2cd936f29b24"
+      sha256 "17d907ff50f25b5f6995649a7977c2104ed0805b8500e813ba16ad9e1af01b38"
     end
     on_intel do
       url "#{base}/pykrete-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "d4c85cc36af3d216ec9638b1c6bbac5024438dbc9b4b52a602c9cafb649fce1a"
+      sha256 "8d15dac934062930798ef34929d8cf4f53cc5348037b7c1f9f7273eb6e29a012"
     end
   end
 
   on_linux do
     on_intel do
       url "#{base}/pykrete-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "bf71b36543f8c66235c53db3819ff2d1d0f7c4d572e5db214e27083d89f77d85"
+      sha256 "c35fec2732f6b97a27c8452db6b1af0c7be3a3a09533dfe5b63123216553806f"
     end
   end
 
