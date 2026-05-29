@@ -3,7 +3,7 @@
 class Pykrete < Formula
   desc "Static schema checking for PySpark dataframes"
   homepage "https://github.com/amirnaderi93/pykrete"
-  version "0.1.24"
+  version "0.1.25"
   license "MIT"
 
   base = "https://github.com/amirnaderi93/pykrete/releases/download/v#{version}"
@@ -11,18 +11,18 @@ class Pykrete < Formula
   on_macos do
     on_arm do
       url "#{base}/pykrete-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "c82e2b6eaff441f31c7f96bfe6ac3c2e5f91c3312dfb608cac9f91b8a77ac31f"
+      sha256 "02afd66a49a95aa1acf04be0f41e3304e97f709caad61a8cf7c69768cc6e0a12"
     end
     on_intel do
       url "#{base}/pykrete-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "33befebead3ce0794394dfeabe8ae9cb442a03f580f3a6959fd35a0273aced38"
+      sha256 "0949b44b616e2f3f5cf0ba72caf1bc911b9e141162f57aa81f54e39dc56030eb"
     end
   end
 
   on_linux do
     on_intel do
       url "#{base}/pykrete-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "fce4936c0322bc1603f185cd43790e0401300f4d9b10b5cb0ef3d0d4bc201df6"
+      sha256 "5678b5fc3c767196a5e0660a23f7a5e712d0d47f399e585f8d0eac15fde4fcd1"
     end
   end
 
